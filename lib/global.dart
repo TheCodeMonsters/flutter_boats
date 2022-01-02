@@ -8,21 +8,11 @@ class MyColors {
 }
 
 List<Category> mainCategories = [
-      Category(
-        name: "Top Pick",
-      ),
-      Category(
-        name: "Popular",
-      ),
-      Category(
-        name: "New Release",
-      ),
-      Category(
-        name: "Trending",
-      ),
-      Category(
-        name: "Newest",
-      ),
+      Category(name: "Top Pick"),
+      Category(name: "Popular"),
+      Category(name: "New Release"),
+      Category(name: "Trending"),
+      Category(name: "Newest"),
     ],
     subCategories = [
       Category(name: "Paddles"),
@@ -317,18 +307,18 @@ List<BlogPost> blogPosts = [
         "https://cdn.pixabay.com/photo/2020/04/10/23/17/waterfall-5028130_960_720.jpg",
     excerpt:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam nemo molestiae repudiandae corporis maxime dolor, et laudantium nulla commodi excepturi quod necessitatibus vel quasi aspernatur quis placeat quisquam eum alias.",
-    title: "Lorem ipsum dolor sit amet consectetur adipisicing elit",
+    title: "Somoto Canyon",
   ),
   BlogPost(
     image:
         "https://cdn.pixabay.com/photo/2016/08/12/05/19/strawberries-1587686_960_720.jpg",
     excerpt:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam nemo molestiae repudiandae corporis maxime dolor, et laudantium nulla commodi excepturi quod necessitatibus vel quasi aspernatur quis placeat quisquam eum alias.",
-    title: "Lorem ipsum dolor sit amet consectetur adipisicing elit",
+    title: "Fresas",
   ),
   BlogPost(
     image:
-        "https://cdn.pixabay.com/photo/2013/10/02/23/03/dawn-190055_960_720.jpg",
+        "https://cdn.pixabay.com/photo/2020/04/14/18/13/honey-5043708_960_720.jpg",
     excerpt:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam nemo molestiae repudiandae corporis maxime dolor, et laudantium nulla commodi excepturi quod necessitatibus vel quasi aspernatur quis placeat quisquam eum alias.",
     title: "Lorem ipsum dolor sit amet consectetur adipisicing elit",
