@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_boats/ui/screens/cart.dart';
+import 'package:flutter_boats/ui/screens/home.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 void main() => runApp(const MyApp());
 
@@ -8,17 +11,16 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Material App',
-      home: Scaffold(
-        appBar: AppBar(
-          title: const Text('Material App Bar'),
-        ),
-        body: Center(
-          child: Container(
-            child: const Text('Hello World'),
-          ),
-        ),
+      debugShowCheckedModeBanner: false,
+      title: 'Flutter Boats',
+      theme: ThemeData(
+        scaffoldBackgroundColor: Colors.white,
+        textTheme: GoogleFonts.montserratTextTheme(),
       ),
+      home: const HomeScreen(),
+      routes: {
+        'cart': (context) => const CartScreen(),
+      },
     );
   }
 }

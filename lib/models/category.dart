@@ -1,4 +1,4 @@
 class Category {
-  final String? name;
-  Category({this.name});
+  final String name;
+  Category({this.name = " "});
 }
