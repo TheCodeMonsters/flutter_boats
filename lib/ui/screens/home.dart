@@ -1,7 +1,7 @@
 import 'package:flutter_boats/global.dart';
 import 'package:flutter_boats/ui/screens/details.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_boats/models/product.dart';
+import 'package:flutter_boats/ui/widgets/widgets.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -42,7 +42,7 @@ class HomeScreen extends StatelessWidget {
               style: Theme.of(context).textTheme.headline5,
             ),
             const SizedBox(height: 9),
-            SizedBox(
+            const SizedBox(
               height: 51,
               child: MainCategoryItem(),
             ),
@@ -70,7 +70,7 @@ class HomeScreen extends StatelessWidget {
                   icon: const Icon(Icons.tune),
                   onPressed: () {},
                 ),
-                Expanded(
+                const Expanded(
                   child: SizedBox(
                     height: 51,
                     child: Center(
@@ -92,17 +92,17 @@ class HomeScreen extends StatelessWidget {
                 contentPadding: const EdgeInsets.all(9),
                 leading: ClipRRect(
                   child: Image.network(
-                    "${blogPosts[i].image}",
+                    blogPosts[i].image,
                     fit: BoxFit.cover,
                   ),
                   borderRadius: BorderRadius.circular(9),
                 ),
                 title: Text(
-                  "${blogPosts[i].title}",
+                  blogPosts[i].title,
                   maxLines: 1,
                 ),
                 subtitle: Text(
-                  "${blogPosts[i].excerpt}",
+                  blogPosts[i].excerpt,
                   maxLines: 2,
                 ),
               ),
