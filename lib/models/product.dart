@@ -4,11 +4,11 @@ class Product {
   final List<Map<String, dynamic>> productSpecification;
 
   Product({
-    this.name = " ",
-    this.price = " ",
-    this.image = " ",
-    this.topShot = " ",
-    this.features = const [],
-    this.productSpecification = const [],
+    required this.name,
+    required this.price,
+    required this.image,
+    required this.topShot,
+    required this.features,
+    required this.productSpecification,
   });
 }

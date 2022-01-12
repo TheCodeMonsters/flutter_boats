@@ -18,14 +18,11 @@ class HomeScreen extends StatelessWidget {
           items: const [
             BottomNavigationBarItem(icon: Icon(Icons.home), label: "Home"),
             BottomNavigationBarItem(icon: Icon(Icons.person), label: "Profile"),
-            BottomNavigationBarItem(
-                icon: Icon(Icons.bookmark), label: "Bookmarked"),
-            BottomNavigationBarItem(
-                icon: Icon(Icons.shopping_basket), label: "Cart"),
+            BottomNavigationBarItem(icon: Icon(Icons.shop), label: "Cart"),
           ],
         ),
         body: ListView(
-          padding: const EdgeInsets.all(9),
+          padding: const EdgeInsets.all(8),
           children: <Widget>[
             const TextField(
               decoration: InputDecoration(
@@ -46,9 +43,8 @@ class HomeScreen extends StatelessWidget {
               height: 51,
               child: MainCategoryItem(),
             ),
-            const SizedBox(height: 9),
             SizedBox(
-              height: MediaQuery.of(context).size.height / 3,
+              height: MediaQuery.of(context).size.height / 4,
               child: PageView.builder(
                 controller: PageController(viewportFraction: .75),
                 itemCount: productsList.length,

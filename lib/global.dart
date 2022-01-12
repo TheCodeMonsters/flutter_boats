@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 import 'models/models.dart';
 
 class MyColors {
-  static const Color mainColor = Color(0xfff8e6da),
-      accentColor = Color(0xffffcda6);
+  static const Color mainColor = Color(0xffEBEBEB),
+      accentColor = Color(0xff1B8ED0);
 }
 
 List<Category> mainCategories = [
@@ -62,7 +62,7 @@ List<Product> productsList = [
       'Cooler: Sprung-lift hatch',
     ],
     image:
-        "https://data2.polantis.com/image1000/data/732/29414/Yacht%20Boat%2092_3D_p.png",
+        "https://www.yamahaboats.com/globalassets/_boats/all-boats/27-ft-boats/275sd/275sd-black_profile.png",
     name: "Better Boat",
     price: "\$350,000",
     productSpecification: [
@@ -92,187 +92,7 @@ List<Product> productsList = [
       'Cooler: Sprung-lift hatch',
     ],
     image:
-        "https://data2.polantis.com/image1000/data/732/29414/Yacht%20Boat%2092_3D_p.png",
-    name: "Better Boat",
-    price: "\$350,000",
-    productSpecification: [
-      {
-        'name': 'Length',
-        'value': '4.2m',
-        'icon': Icons.panorama_horizontal,
-      },
-      {
-        'name': 'Beam',
-        'value': '1.5 m',
-        'icon': Icons.photo_size_select_large,
-      },
-      {
-        'name': 'Weight',
-        'value': '340lbs',
-        'icon': Icons.rss_feed,
-      },
-    ],
-  ),
-  Product(
-    topShot:
-        "https://www.evoyachts.com/wp-content/themes/evo/media/home/about.png",
-    features: [
-      'Storage: Under-bow Locker',
-      'Windscreen: Smocked UV-protected acrylic',
-      'Cooler: Sprung-lift hatch',
-    ],
-    image:
-        "https://data2.polantis.com/image1000/data/732/29414/Yacht%20Boat%2092_3D_p.png",
-    name: "Better Boat",
-    price: "\$350,000",
-    productSpecification: [
-      {
-        'name': 'Length',
-        'value': '4.2m',
-        'icon': Icons.panorama_horizontal,
-      },
-      {
-        'name': 'Beam',
-        'value': '1.5 m',
-        'icon': Icons.photo_size_select_large,
-      },
-      {
-        'name': 'Weight',
-        'value': '340lbs',
-        'icon': Icons.rss_feed,
-      },
-    ],
-  ),
-  Product(
-    topShot:
-        "https://www.evoyachts.com/wp-content/themes/evo/media/home/about.png",
-    features: [
-      'Storage: Under-bow Locker',
-      'Windscreen: Smocked UV-protected acrylic',
-      'Cooler: Sprung-lift hatch',
-    ],
-    image:
-        "https://data2.polantis.com/image1000/data/732/29414/Yacht%20Boat%2092_3D_p.png",
-    name: "Better Boat",
-    price: "\$350,000",
-    productSpecification: [
-      {
-        'name': 'Length',
-        'value': '4.2m',
-        'icon': Icons.panorama_horizontal,
-      },
-      {
-        'name': 'Beam',
-        'value': '1.5 m',
-        'icon': Icons.photo_size_select_large,
-      },
-      {
-        'name': 'Weight',
-        'value': '340lbs',
-        'icon': Icons.rss_feed,
-      },
-    ],
-  ),
-  Product(
-    topShot:
-        "https://www.evoyachts.com/wp-content/themes/evo/media/home/about.png",
-    features: [
-      'Storage: Under-bow Locker',
-      'Windscreen: Smocked UV-protected acrylic',
-      'Cooler: Sprung-lift hatch',
-    ],
-    image:
-        "https://data2.polantis.com/image1000/data/732/29414/Yacht%20Boat%2092_3D_p.png",
-    name: "Better Boat",
-    price: "\$350,000",
-    productSpecification: [
-      {
-        'name': 'Length',
-        'value': '4.2m',
-        'icon': Icons.panorama_horizontal,
-      },
-      {
-        'name': 'Beam',
-        'value': '1.5 m',
-        'icon': Icons.photo_size_select_large,
-      },
-      {
-        'name': 'Weight',
-        'value': '340lbs',
-        'icon': Icons.rss_feed,
-      },
-    ],
-  ),
-  Product(
-    topShot:
-        "https://www.evoyachts.com/wp-content/themes/evo/media/home/about.png",
-    features: [
-      'Storage: Under-bow Locker',
-      'Windscreen: Smocked UV-protected acrylic',
-      'Cooler: Sprung-lift hatch',
-    ],
-    image:
-        "https://data2.polantis.com/image1000/data/732/29414/Yacht%20Boat%2092_3D_p.png",
-    name: "Better Boat",
-    price: "\$350,000",
-    productSpecification: [
-      {
-        'name': 'Length',
-        'value': '4.2m',
-        'icon': Icons.panorama_horizontal,
-      },
-      {
-        'name': 'Beam',
-        'value': '1.5 m',
-        'icon': Icons.photo_size_select_large,
-      },
-      {
-        'name': 'Weight',
-        'value': '340lbs',
-        'icon': Icons.rss_feed,
-      },
-    ],
-  ),
-  Product(
-    topShot:
-        "https://www.evoyachts.com/wp-content/themes/evo/media/home/about.png",
-    features: [
-      'Storage: Under-bow Locker',
-      'Windscreen: Smocked UV-protected acrylic',
-      'Cooler: Sprung-lift hatch',
-    ],
-    image:
-        "https://data2.polantis.com/image1000/data/732/29414/Yacht%20Boat%2092_3D_p.png",
-    name: "Better Boat",
-    price: "\$350,000",
-    productSpecification: [
-      {
-        'name': 'Length',
-        'value': '4.2m',
-        'icon': Icons.panorama_horizontal,
-      },
-      {
-        'name': 'Beam',
-        'value': '1.5 m',
-        'icon': Icons.photo_size_select_large,
-      },
-      {
-        'name': 'Weight',
-        'value': '340lbs',
-        'icon': Icons.rss_feed,
-      },
-    ],
-  ),
-  Product(
-    topShot:
-        "https://www.evoyachts.com/wp-content/themes/evo/media/home/about.png",
-    features: [
-      'Storage: Under-bow Locker',
-      'Windscreen: Smocked UV-protected acrylic',
-      'Cooler: Sprung-lift hatch',
-    ],
-    image:
-        "https://data2.polantis.com/image1000/data/732/29414/Yacht%20Boat%2092_3D_p.png",
+        "https://www.yamahaboats.com/globalassets/_boats/all-boats/21-ft-boats/212s/212s-white_profile.png",
     name: "Better Boat",
     price: "\$350,000",
     productSpecification: [
@@ -315,13 +135,6 @@ List<BlogPost> blogPosts = [
     excerpt:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam nemo molestiae repudiandae corporis maxime dolor, et laudantium nulla commodi excepturi quod necessitatibus vel quasi aspernatur quis placeat quisquam eum alias.",
     title: "Fresas",
-  ),
-  BlogPost(
-    image:
-        "https://cdn.pixabay.com/photo/2020/04/14/18/13/honey-5043708_960_720.jpg",
-    excerpt:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam nemo molestiae repudiandae corporis maxime dolor, et laudantium nulla commodi excepturi quod necessitatibus vel quasi aspernatur quis placeat quisquam eum alias.",
-    title: "Lorem ipsum dolor sit amet consectetur adipisicing elit",
   ),
   BlogPost(
     image:
